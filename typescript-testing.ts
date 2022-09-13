@@ -1,8 +1,8 @@
-type PeopleOptions = "Eric" | "Jon" | "Roberta";
+type NameOption = "Eric" | "Jon" | "Roberta";
 
-let person: PeopleOptions = "Eric";
+let person: NameOption = "Eric";
 
-export function printPerson(p: PeopleOptions): void {
+export function printPerson(p: NameOption): void {
   console.log(p);
 }
 
